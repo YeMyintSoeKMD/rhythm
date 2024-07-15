@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .heading1 {
+        @apply text-5xl text-indigo-500 font-bold;
+    }
+
+    .heading-line {
+        @apply py-px w-12 bg-indigo-500;
+    }
+}
